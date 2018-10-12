@@ -33,27 +33,40 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
         },
         {
             "name": "satisfactionSurvey.csv"
         },
         {
-            "desc": "",
-            "name": "clean2.R"
+            "assigned_to": "siddharth0492",
+            "desc": "1) Analysing the data using structure and summary functions in R studio to understand the distribution of data based on each attribute.  \r\n2) Formatting 'dates'",
+            "name": "clean.R",
+            "task_status": "proposed"
         },
         {
-            "desc": "",
-            "name": "clean3.R"
+            "assigned_to": "sachinchaudhury",
+            "desc": "1) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
+            "name": "clean2.R",
+            "task_status": "proposed"
         },
         {
-            "desc": "",
-            "name": "clean4.R"
+            "assigned_to": "drsharma",
+            "desc": "1) Removing NA values if present in any attribute.\r\n2) Handling irrelevant data present in the satisfaction level attribute.\r\n",
+            "name": "clean3.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "Identifying blank instances in the dataset and replace them with relevant substitutes using KNN imputation and Mice package. ",
+            "name": "clean4.R",
+            "task_status": "proposed"
+        },
+        {
+            "desc": "While cleaning the dataset each member will focus on analyzing different attributes. In the process our group will discuss what type of visualizations need to be done in order to find trends in the dataset.\r\nFor instance finding airport with maximum delay time. This way flyers can analyze which airport to avoid if they have more than one airport in their vicinity, meaning if a passenger lives in NYC he/she has option to travel from JFK, EWR, or LaGuardia. By finding maximum delay time among these airport one can choose the better airport to travel from. \r\n",
+            "name": "Visualization.R"
         }
     ],
-    "updated_at": "2018-10-12 03:10:07",
+    "updated_at": "2018-10-12 03:15:44",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
