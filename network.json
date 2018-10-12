@@ -6,22 +6,8 @@
         "siddharth0492"
     ],
     "created_at": "2018-10-11 16:56:46",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        }
-    ],
+    "edges": [],
     "nodes": [
-        {
-            "name": "data.csv"
-        },
         {
             "name": "satisfactionSurvey.csv"
         },
@@ -56,6 +42,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-12 03:16:35",
+    "updated_at": "2018-10-12 03:16:53",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
