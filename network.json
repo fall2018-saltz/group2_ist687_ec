@@ -133,16 +133,6 @@
         {
             "ports": [
                 {
-                    "output": "plot10",
-                    "type": "png"
-                }
-            ],
-            "source": "Visualization.R",
-            "target": "plot10.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot1",
                     "type": "png"
                 }
@@ -209,7 +199,7 @@
             "name": "plot9.png"
         },
         {
-            "name": "plot10.png"
+            "name": "plot1.png"
         },
         {
             "assigned_to": "mansee1",
@@ -218,13 +208,10 @@
             "task_status": "completed"
         },
         {
-            "name": "plot1.png"
-        },
-        {
             "desc": "",
             "name": "lm.R"
         }
     ],
-    "updated_at": "2018-11-02 02:04:18",
+    "updated_at": "2018-11-02 02:41:29",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
