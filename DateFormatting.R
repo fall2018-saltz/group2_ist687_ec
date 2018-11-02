@@ -1,4 +1,4 @@
 
-ss$Flight.date<-format(ss$Flight.date)
+ss1$Flight.date<-format(ss1$Flight.date)
 
-satisfactionSurvey<-ss
+ss2<-ss1
