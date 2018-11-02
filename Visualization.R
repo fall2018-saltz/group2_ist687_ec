@@ -1,7 +1,7 @@
 
 library(ggplot2)
 
-plot1<-ggplot(data=ss2,aes(x=Age,y=Satisfaction))+geom_point(fill="Gender")
+plot1<-ggplot(data=ss2,aes(x=Age,y=Satisfaction))+geom_point()
 plot2<-ggplot(data=ss2,aes(x=Airline.Status,y=Satisfaction))+geom_point()
 plot3<-ggplot(data=ss2,aes(x=Price.Senstivity,y=Satisfaction))+geom_point()
 plot4<-ggplot(data=ss2,aes(x=Year.of.First.Flight,y=Satisfaction))+geom_point()
