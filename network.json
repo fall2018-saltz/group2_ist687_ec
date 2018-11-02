@@ -27,6 +27,17 @@
             ],
             "source": "ChangeColumnNames.R",
             "target": "RemoveUnnecessaryValues.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "RemoveUnnecessaryValues.R",
+            "target": "clean4.R"
         }
     ],
     "nodes": [
@@ -58,6 +69,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-02 00:22:02",
+    "updated_at": "2018-11-02 00:26:06",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
