@@ -89,6 +89,16 @@
             ],
             "source": "Visualization.R",
             "target": "plot4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot5",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualization.R",
+            "target": "plot5.png"
         }
     ],
     "nodes": [
@@ -135,6 +145,6 @@
             "name": "plot5.png"
         }
     ],
-    "updated_at": "2018-11-02 01:18:21",
+    "updated_at": "2018-11-02 01:18:35",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
