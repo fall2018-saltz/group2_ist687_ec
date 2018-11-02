@@ -63,16 +63,6 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
-                    "type": "png"
-                }
-            ],
-            "source": "Visualization.R",
-            "target": "plot1.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot3",
                     "type": "png"
                 }
@@ -177,9 +167,6 @@
             "name": "plot2.png"
         },
         {
-            "name": "plot1.png"
-        },
-        {
             "name": "plot3.png"
         },
         {
@@ -210,6 +197,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-02 01:21:43",
+    "updated_at": "2018-11-02 01:23:06",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
