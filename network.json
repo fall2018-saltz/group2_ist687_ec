@@ -41,17 +41,6 @@
         {
             "ports": [
                 {
-                    "input": "ss",
-                    "output": "ss",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "RemoveUnnecessaryValues.R",
-            "target": "DateFormatting.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey",
                     "output": "ss",
                     "type": "r_obj"
@@ -59,6 +48,17 @@
             ],
             "source": "DateFormatting.R",
             "target": "Visualization.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "ss1",
+                    "output": "ss",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "RemoveUnnecessaryValues.R",
+            "target": "DateFormatting.R"
         }
     ],
     "nodes": [
@@ -93,6 +93,6 @@
             "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-11-02 00:58:57",
+    "updated_at": "2018-11-02 01:03:32",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
