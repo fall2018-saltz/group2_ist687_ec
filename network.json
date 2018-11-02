@@ -149,6 +149,17 @@
             ],
             "source": "Visualization.R",
             "target": "plot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "ss2",
+                    "output": "ss1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "DateFormatting.R",
+            "target": "lm.R"
         }
     ],
     "nodes": [
@@ -214,6 +225,6 @@
             "name": "lm.R"
         }
     ],
-    "updated_at": "2018-11-02 02:01:43",
+    "updated_at": "2018-11-02 02:04:18",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
