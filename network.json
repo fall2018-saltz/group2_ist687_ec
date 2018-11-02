@@ -51,12 +51,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "1) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
-            "name": "ChangeColumnNames.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "sachinchaudhury",
             "desc": "1) Removing other values if present in any attribute.\r\n2) Handling irrelevant data present in the satisfaction level attribute.\r\n",
             "name": "RemoveUnnecessaryValues.R",
@@ -67,8 +61,14 @@
             "desc": "Formatting the date values",
             "name": "DateFormatting.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "1) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
+            "name": "ChangeColumnNames.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-02 00:27:34",
+    "updated_at": "2018-11-02 00:28:19",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
