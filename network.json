@@ -16,6 +16,17 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "ChangeColumnNames.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ChangeColumnNames.R",
+            "target": "clean3.R"
         }
     ],
     "nodes": [
@@ -44,9 +55,9 @@
             "assigned_to": "drsharma",
             "desc": "1) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
             "name": "ChangeColumnNames.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-02 00:14:57",
+    "updated_at": "2018-11-02 00:17:55",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
