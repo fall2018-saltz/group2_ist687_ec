@@ -6,27 +6,10 @@
         "siddharth0492"
     ],
     "created_at": "2018-10-11 16:56:46",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "input": "satisfactionSurvery",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "clean.R"
-        }
-    ],
+    "edges": [],
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "assigned_to": "siddharth0492",
-            "desc": "1) Analysing the data using structure and summary functions in R studio to understand the distribution of data based on each attribute.  \r\n2) Formatting 'dates'",
-            "name": "clean.R",
-            "task_status": "in progress"
         },
         {
             "assigned_to": "sachinchaudhury",
@@ -53,6 +36,6 @@
             "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-30 15:49:16",
+    "updated_at": "2018-11-02 00:12:02",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
