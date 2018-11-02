@@ -59,6 +59,16 @@
             ],
             "source": "DateFormatting.R",
             "target": "Visualization.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualization.R",
+            "target": "plot2.png"
         }
     ],
     "nodes": [
@@ -96,6 +106,6 @@
             "name": "plot2.png"
         }
     ],
-    "updated_at": "2018-11-02 01:16:08",
+    "updated_at": "2018-11-02 01:16:27",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
