@@ -208,8 +208,12 @@
         },
         {
             "name": "plot1.png"
+        },
+        {
+            "desc": "",
+            "name": "lm.R"
         }
     ],
-    "updated_at": "2018-11-02 01:24:58",
+    "updated_at": "2018-11-02 02:01:43",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
