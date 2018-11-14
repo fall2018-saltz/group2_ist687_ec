@@ -143,7 +143,7 @@
         {
             "ports": [
                 {
-                    "input": "ss2",
+                    "input": "ss_date",
                     "output": "ss1",
                     "type": "r_obj"
                 }
@@ -214,6 +214,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-14 18:50:18",
+    "updated_at": "2018-11-14 18:50:46",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
