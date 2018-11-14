@@ -7,3 +7,4 @@ Eating.and.Drinking.at.Airport+Class+Day.of.Month
 summary(m)
 
 m1<-lm(formula=as.numeric(Satisfaction)~Flight.date,data=ss_date)
+summary(m1)
