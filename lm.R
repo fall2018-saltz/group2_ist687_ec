@@ -5,5 +5,7 @@ Percentage.of.Flight.with.other.Airlines+Type.of.Travel+ No.of.other.Loyalty.Car
 Eating.and.Drinking.at.Airport+Class+Day.of.Month+Airline.Name+Scheduled.Departure.Hour+Departure.Delay.in.Minutes+
 Arrival.Delay.in.Minutes+Flight.cancelled+Flight.time.in.minutes+Flight.Distance+Arr.Delay.greater.5.Mins 
 ,data=ss_date,na.action=na.omit)
-summary(m)
+
+m1<lm(formula=as.numeric(Satisfaction)~.,data=ss_date,na.action=na.omit)
+summary(m1)
 
