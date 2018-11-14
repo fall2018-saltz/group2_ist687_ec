@@ -5,7 +5,7 @@ m<-lm(formula=as.numeric(Satisfaction)~Airline.Status+Age+Gender+Price.Sensitivi
 Percentage.of.Flight.with.other.Airlines+Type.of.Travel+ No.of.other.Loyalty.Cards+Shopping.Amount.at.Airport+
 Eating.and.Drinking.at.Airport+Class+Day.of.Month+Airline.Name+Scheduled.Departure.Hour+Departure.Delay.in.Minutes+
 Arrival.Delay.in.Minutes+Flight.cancelled+Flight.time.in.minutes+Flight.Distance+Arr.Delay.greater.5.Mins+
-Destination.City
+as.Date(Flight.date)
 ,data=ss_date,na.action=na.omit)
 
 summary(m)
