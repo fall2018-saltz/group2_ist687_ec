@@ -6,7 +6,5 @@ Eating.and.Drinking.at.Airport+Class+Day.of.Month+Airline.Name+Scheduled.Departu
 Arrival.Delay.in.Minutes+Flight.cancelled+Flight.time.in.minutes+Flight.Distance+Arr.Delay.greater.5.Mins 
 ,data=ss_date,na.action=na.omit)
 
-m1<lm(formula=as.numeric(Satisfaction)~.,data=ss_date,na.action=na.omit)
-summary(m1)
 summary(m)
 
