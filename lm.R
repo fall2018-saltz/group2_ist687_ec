@@ -8,4 +8,5 @@ Arrival.Delay.in.Minutes+Flight.cancelled+Flight.time.in.minutes+Flight.Distance
 
 m1<lm(formula=as.numeric(Satisfaction)~.,data=ss_date,na.action=na.omit)
 summary(m1)
+summary(m)
 
