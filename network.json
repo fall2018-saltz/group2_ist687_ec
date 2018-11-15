@@ -212,12 +212,8 @@
             "desc": "",
             "name": "lm.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "",
-            "name": "Plot.R"
         }
     ],
-    "updated_at": "2018-11-15 21:16:40",
+    "updated_at": "2018-11-15 21:17:59",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
