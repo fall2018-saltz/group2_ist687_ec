@@ -12,4 +12,3 @@ trimws(colSatSurvey$Destination.City)
 trimSatSurvey <- trimws(colSatSurvey$Destination.State)
 
 trimSatSurvey
-
