@@ -1,4 +1,5 @@
 
+library(data.table)
 gsub(" ", "", satisfactionSurvey$Airline.Status, fixed = TRUE)
 gsub(" ", "", satisfactionSurvey$Gender, fixed = TRUE)
 trimws(satisfactionSurvey$Type.of.Travel)
