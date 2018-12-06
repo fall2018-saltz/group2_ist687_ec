@@ -32,17 +32,6 @@
         {
             "ports": [
                 {
-                    "input": "trimSatSurvey",
-                    "output": "trimSatSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "RemovingSpaces.R",
-            "target": "FormatDate.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "dateSatSurvey",
                     "output": "dateSatSurvey",
                     "type": "r_obj"
@@ -82,6 +71,17 @@
             ],
             "source": "Outliers.R",
             "target": "ConvertingtoNumeric.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "trimSatSurvey1",
+                    "output": "trimSatSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "RemovingSpaces.R",
+            "target": "FormatDate.R"
         }
     ],
     "nodes": [
@@ -143,6 +143,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 02:09:06",
+    "updated_at": "2018-12-06 02:52:48",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
