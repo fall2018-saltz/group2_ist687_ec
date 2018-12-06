@@ -2,7 +2,7 @@
 satisfactionSurvey$Satisfaction <- as.numeric(as.character(satisfactionSurvey$Satisfaction))
 satisfactionSurvey$Price.Sensitivity <- as.numeric(as.character(satisfactionSurvey$Price.Sensitivity))
 satisfactionSurvey$Year.of.First.Flight <- as.numeric(as.character(satisfactionSurvey$Year.of.First.Flight))
-satisfactionSurvey$No.of.Flights.p.a. <- as.numeric(as.character(satisfactionSurvey$No.of.Flights.p.a.))
+satisfactionSurvey$No.of.Flights.p.a. <- as.numeric(as.character(satisfactionSurvey$No.of.Flights.per.annum.))
 satisfactionSurvey$Percentage.of.Flight.with.other.Airlines <- as.numeric(as.character(satisfactionSurvey$Percentage.of.Flight.with.other.Airlines))
 satisfactionSurvey$No.of.other.Loyalty.Cards <- as.numeric(as.character(satisfactionSurvey$No.of.other.Loyalty.Cards))
 satisfactionSurvey$Shopping.Amount.at.Airport <- as.numeric(as.character(satisfactionSurvey$Shopping.Amount.at.Airport))
