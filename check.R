@@ -1,4 +1,2 @@
 
 any(is.na(satisfactionSurvey))
-
-
