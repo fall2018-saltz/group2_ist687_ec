@@ -26,7 +26,7 @@ convert2<-function(vec)
   return(vBuckets)
   
 }
-
+satisfactionSurveyF <- satisfactionSurvey
 satisfactionSurveyF$Satisfaction<-convert(satisfactionSurveyF$Satisfaction)
 satisfactionSurveyF$Age<-convert1(satisfactionSurveyF$Age)
 satisfactionSurveyF$Price.Sensitivity<-convert1(satisfactionSurveyF$Price.Sensitivity)
