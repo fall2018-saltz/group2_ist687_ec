@@ -104,6 +104,16 @@
             ],
             "source": "ConvertingtoNumeric.R",
             "target": "Map1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "DividingIntoCategories.R",
+            "target": "Apriori.R"
         }
     ],
     "nodes": [
@@ -175,6 +185,6 @@
             "name": "Apriori.R"
         }
     ],
-    "updated_at": "2018-12-06 05:41:26",
+    "updated_at": "2018-12-06 05:42:07",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
