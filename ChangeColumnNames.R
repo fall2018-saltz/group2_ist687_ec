@@ -8,8 +8,8 @@ library(data.table)
 #setnames(satisfactionSurvey1, old=c('No.of.Flights.per.customer'), new = c('No.of.Flights.per.annum'))
 #colSatSurvey <- setnames(satisfactionSurvey1, old=c('Arrival.Delay.greater.5.Mins'), new = c('Arr.Delay.greater.5.Mins'))
 
-satisfactionSurvey1$originstate<-tolower(satisfactionSurvey$Origin.State)
-satisfactionSurvey1$origincity<-tolower(satisfactionSurvey$Origin.City)
+satisfactionSurvey1$originstate<-tolower(satisfactionSurvey1$Origin.State)
+satisfactionSurvey1$origincity<-tolower(satisfactionSurvey1$Origin.City)
 
 setnames(satisfactionSurvey1, old=c('X..of.Flight.with.other.Airlines'), new = c('Percentage of Flight with other Airlines'))
 setnames(satisfactionSurvey1, old=c('Percentage of Flight with other Airlines'), new = c('Percentage.of.Flight.with.other.Airlines'))
