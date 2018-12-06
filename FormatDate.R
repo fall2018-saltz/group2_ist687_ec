@@ -1,3 +1,3 @@
 
-satisfactionSurvey$Flight.date<-format(satisfactionSurvey$Flight.date)
-satisfactionSurvey
+trimSatSurvey$Flight.date<-format(trimSatSurvey$Flight.date)
+dateSatSurvey

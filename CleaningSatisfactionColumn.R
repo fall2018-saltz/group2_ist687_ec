@@ -1,4 +1,4 @@
 
-index<-which(!(satisfactionSurvey$Satisfaction %in% c(1,2,3,4,5)))
-satisfactionSurvey<-satisfactionSurvey[-index,]
-satisfactionSurvey
+index<-which(!(dateSatSurvey$Satisfaction %in% c(1,2,3,4,5)))
+dateSatSurvey<-dateSatSurvey[-index,]
+satSurvey
