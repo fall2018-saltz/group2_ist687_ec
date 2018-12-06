@@ -32,45 +32,12 @@
         {
             "ports": [
                 {
-                    "input": "dateSatSurvey",
-                    "output": "dateSatSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "FormatDate.R",
-            "target": "CleaningSatisfactionColumn.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey1",
                     "type": "csv"
                 }
             ],
             "source": "satisfactionSurvey.csv",
             "target": "ChangeColumnNames.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "satSurvey",
-                    "output": "satSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "CleaningSatisfactionColumn.R",
-            "target": "Outliers.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "satisfactionSurvey2",
-                    "output": "satisfactionSurvey2",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Outliers.R",
-            "target": "ConvertingtoNumeric.R"
         },
         {
             "ports": [
@@ -82,17 +49,44 @@
             ],
             "source": "RemovingSpaces.R",
             "target": "FormatDate.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dateSatSurvey2",
+                    "output": "dateSatSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "FormatDate.R",
+            "target": "CleaningSatisfactionColumn.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey2",
+                    "output": "satSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Outliers.R",
+            "target": "ConvertingtoNumeric.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satSurvey45",
+                    "output": "satSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CleaningSatisfactionColumn.R",
+            "target": "Outliers.R"
         }
     ],
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "assigned_to": "sachinchaudhury",
-            "desc": "1) Removing other values if present in any attribute.\r\n2) Handling irrelevant data present in the satisfaction level attribute.\r\n",
-            "name": "RemoveUnnecessaryValues.R",
-            "task_status": "completed"
         },
         {
             "assigned_to": "siddharth0492",
@@ -143,6 +137,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 02:52:48",
+    "updated_at": "2018-12-06 03:43:33",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
