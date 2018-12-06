@@ -5,4 +5,5 @@ m<-lm(formula=Satisfaction~Age+Gender+Airline.Status+Price.Sensitivity+Year.of.F
         Day.of.Month+Airline.Name+Scheduled.Departure.Hour+
         Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Flight.time.in.minutes+
         Flight.Distance,data=satisfactionSurvey)
-summary(m)
+        
+        
