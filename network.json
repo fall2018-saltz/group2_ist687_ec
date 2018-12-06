@@ -10,35 +10,91 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
+                    "input": "satisfactionSurvey",
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
+            "source": "satisfactionSurvey.csv",
+            "target": "ChangeColumnNames.R"
         },
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
+                    "input": "ss1",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
                 }
             ],
-            "source": "clean.R",
-            "target": "data.csv"
+            "source": "ChangeColumnNames.R",
+            "target": "RemoveUnnecessaryValues.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ChangeColumnNames.R",
+            "target": "RemovingSpaces.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "RemovingSpaces.R",
+            "target": "FormatDate.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "FormatDate.R",
+            "target": "CleaningSatisfactionColumn.R"
         }
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "sachinchaudhury",
+            "desc": "1) Removing other values if present in any attribute.\r\n2) Handling irrelevant data present in the satisfaction level attribute.\r\n",
+            "name": "RemoveUnnecessaryValues.R",
+            "task_status": "completed"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "siddharth0492",
+            "desc": "1)Using summary and structure function to analyze the data\r\n2) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
+            "name": "ChangeColumnNames.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "RemovingSpaces.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "FormatDate.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "CleaningSatisfactionColumn.R"
         }
     ],
-    "updated_at": "2018-10-11 16:57:21",
+    "updated_at": "2018-12-06 01:18:16",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
