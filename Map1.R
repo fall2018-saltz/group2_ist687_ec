@@ -1,6 +1,4 @@
 
-#satisfactionSurveyF$originstate<-tolower(satisfactionSurvey$Origin.State)
-#satisfactionSurveyF$origincity<-tolower(satisfactionSurvey$Origin.City)
 
 us<-map_data("state")
 
