@@ -82,6 +82,17 @@
             ],
             "source": "ConvertingtoNumeric.R",
             "target": "LinearModelling.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "DividingIntoCategories.R"
         }
     ],
     "nodes": [
@@ -137,10 +148,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "DividingIntoCategories.R"
+            "name": "DividingIntoCategories.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 04:48:54",
+    "updated_at": "2018-12-06 04:50:49",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
