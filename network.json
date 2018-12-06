@@ -89,12 +89,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "sachinchaudhury",
-            "desc": "1) Removing other values if present in any attribute.\r\n2) Handling irrelevant data present in the satisfaction level attribute.\r\n",
-            "name": "RemoveUnnecessaryValues.R",
-            "task_status": "completed"
-        },
-        {
             "assigned_to": "siddharth0492",
             "desc": "1)Using summary and structure function to analyze the data\r\n2) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
             "name": "ChangeColumnNames.R",
@@ -141,8 +135,14 @@
             "desc": "",
             "name": "check.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "1) Removing other values if present in any attribute.\r\n2) Handling irrelevant data present in the satisfaction level attribute.\r\n",
+            "name": "RemoveUnnecessaryValues.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 02:52:48",
+    "updated_at": "2018-12-06 03:08:13",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
