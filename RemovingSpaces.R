@@ -1,15 +1,15 @@
 
 library(data.table)
-gsub(" ", "", satisfactionSurvey$Airline.Status, fixed = TRUE)
-gsub(" ", "", satisfactionSurvey$Gender, fixed = TRUE)
-trimws(satisfactionSurvey$Type.of.Travel)
-trimws(satisfactionSurvey$Class)
-trimws(satisfactionSurvey$Airline.Code)
-trimws(satisfactionSurvey$Airline.Name)
-trimws(satisfactionSurvey$Origin.City)
-trimws(satisfactionSurvey$Origin.State)
-trimws(satisfactionSurvey$Destination.City)
-trimws(satisfactionSurvey$Destination.State)
+gsub(" ", "", colSatSurvey$Airline.Status, fixed = TRUE)
+gsub(" ", "", colSatSurvey$Gender, fixed = TRUE)
+trimws(colSatSurvey$Type.of.Travel)
+trimws(colSatSurvey$Class)
+trimws(colSatSurvey$Airline.Code)
+trimws(colSatSurvey$Airline.Name)
+trimws(colSatSurvey$Origin.City)
+trimws(colSatSurvey$Origin.State)
+trimws(colSatSurvey$Destination.City)
+trimws(colSatSurvey$Destination.State)
 
 trimSatSurvey
 
