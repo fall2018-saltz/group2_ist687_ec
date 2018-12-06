@@ -38,6 +38,17 @@
             ],
             "source": "RemoveUnnecessaryValues.R",
             "target": "DateFormatting.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ChangeColumnNames.R",
+            "target": "RemovingSpaces.R"
         }
     ],
     "nodes": [
@@ -67,6 +78,6 @@
             "name": "RemovingSpaces.R"
         }
     ],
-    "updated_at": "2018-12-06 01:04:34",
+    "updated_at": "2018-12-06 01:04:58",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
