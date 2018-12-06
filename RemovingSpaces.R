@@ -10,5 +10,6 @@ trimws(satisfactionSurvey$Origin.City)
 trimws(satisfactionSurvey$Origin.State)
 trimws(satisfactionSurvey$Destination.City)
 trimws(satisfactionSurvey$Destination.State)
-satisfactionSurvey
+
+trimSatSurvey
 
