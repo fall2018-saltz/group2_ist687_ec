@@ -20,16 +20,6 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
-                    "type": "png"
-                }
-            ],
-            "source": "Visualization.R",
-            "target": "plot1.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "ss1",
                     "output": "satisfactionSurvey",
                     "type": "r_obj"
@@ -95,9 +85,6 @@
             "task_status": "completed"
         },
         {
-            "name": "plot1.png"
-        },
-        {
             "assigned_to": "mansee1",
             "desc": "While cleaning the dataset each member will focus on analyzing different attributes. In the process our group will discuss what type of visualizations need to be done in order to find trends in the dataset.\r\nFor instance finding airport with maximum delay time. This way flyers can analyze which airport to avoid if they have more than one airport in their vicinity, meaning if a passenger lives in NYC he/she has option to travel from JFK, EWR, or LaGuardia. By finding maximum delay time among these airport one can choose the better airport to travel from. \r\n",
             "name": "Visualization.R",
@@ -110,6 +97,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 00:56:18",
+    "updated_at": "2018-12-06 00:56:23",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
