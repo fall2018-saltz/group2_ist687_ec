@@ -32,17 +32,6 @@
         {
             "ports": [
                 {
-                    "input": "dateSatSurvey",
-                    "output": "dateSatSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "FormatDate.R",
-            "target": "CleaningSatisfactionColumn.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey1",
                     "type": "csv"
                 }
@@ -82,6 +71,17 @@
             ],
             "source": "RemovingSpaces.R",
             "target": "FormatDate.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dateSatSurvey2",
+                    "output": "dateSatSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "FormatDate.R",
+            "target": "CleaningSatisfactionColumn.R"
         }
     ],
     "nodes": [
@@ -137,6 +137,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 03:09:04",
+    "updated_at": "2018-12-06 03:27:02",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
