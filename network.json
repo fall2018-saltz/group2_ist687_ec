@@ -20,17 +20,6 @@
         {
             "ports": [
                 {
-                    "input": "ss1",
-                    "output": "satisfactionSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "ChangeColumnNames.R",
-            "target": "RemoveUnnecessaryValues.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey",
                     "output": "satisfactionSurvey",
                     "type": "r_obj"
@@ -91,10 +80,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "CleaningSatisfactionColumn.R"
+            "name": "CleaningSatisfactionColumn.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Outliers.R"
         }
     ],
-    "updated_at": "2018-12-06 01:18:16",
+    "updated_at": "2018-12-06 01:30:58",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
