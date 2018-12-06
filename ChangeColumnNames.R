@@ -1,4 +1,5 @@
 
+library(data.table)
 setnames(satisfactionSurvey, old=c('X..of.Flight.with.other.Airlines'), new = c('Percentage of Flight with other Airlines'))
 setnames(satisfactionSurvey, old=c('Percentage of Flight with other Airlines'), new = c('Percentage.of.Flight.with.other.Airlines'))
 setnames(satisfactionSurvey, old=c('Orgin.City','No..of.other.Loyalty.Cards'), new = c('Origin.City','No.of.other.Loyalty.Cards'))
