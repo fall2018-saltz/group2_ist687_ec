@@ -14,4 +14,4 @@ satisfactionSurvey2$Arrival.Delay.in.Minutes <- as.numeric(as.character(satisfac
 satisfactionSurvey2$Flight.time.in.minutes <- as.numeric(as.character(satisfactionSurvey2$Flight.time.in.minutes))
 satisfactionSurvey2$Flight.Distance <- as.numeric(as.character(satisfactionSurvey2$Flight.Distance))
 
-satisfactionSurvey <- satisfactionSurvey2
+
