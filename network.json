@@ -31,17 +31,6 @@
         {
             "ports": [
                 {
-                    "input": "ss2",
-                    "output": "ss1",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "RemoveUnnecessaryValues.R",
-            "target": "DateFormatting.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey",
                     "output": "satisfactionSurvey",
                     "type": "r_obj"
@@ -69,17 +58,11 @@
         },
         {
             "assigned_to": "drsharma",
-            "desc": "Formatting the date values",
-            "name": "DateFormatting.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "drsharma",
             "desc": "",
             "name": "RemovingSpaces.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 01:07:17",
+    "updated_at": "2018-12-06 01:08:43",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
