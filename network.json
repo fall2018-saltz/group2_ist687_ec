@@ -71,6 +71,17 @@
             ],
             "source": "Outliers.R",
             "target": "ConvertingtoNumeric.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "check.R"
         }
     ],
     "nodes": [
@@ -130,6 +141,6 @@
             "name": "check.R"
         }
     ],
-    "updated_at": "2018-12-06 01:52:07",
+    "updated_at": "2018-12-06 01:52:32",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
