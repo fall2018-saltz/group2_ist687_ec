@@ -38,6 +38,17 @@
             ],
             "source": "ChangeColumnNames.R",
             "target": "RemovingSpaces.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "RemovingSpaces.R",
+            "target": "FormatDate.R"
         }
     ],
     "nodes": [
@@ -67,6 +78,6 @@
             "name": "FormatDate.R"
         }
     ],
-    "updated_at": "2018-12-06 01:11:36",
+    "updated_at": "2018-12-06 01:12:03",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
