@@ -9,7 +9,4 @@ trimws(colSatSurvey$Airline.Name)
 trimws(colSatSurvey$Origin.City)
 trimws(colSatSurvey$Origin.State)
 trimws(colSatSurvey$Destination.City)
-trimws(colSatSurvey$Destination.State)
-
-trimSatSurvey
-
+trimSatSurvey <- trimws(colSatSurvey$Destination.State)
