@@ -61,8 +61,12 @@
             "desc": "",
             "name": "RemovingSpaces.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "FormatDate.R"
         }
     ],
-    "updated_at": "2018-12-06 01:08:43",
+    "updated_at": "2018-12-06 01:11:36",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
