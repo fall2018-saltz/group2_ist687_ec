@@ -82,6 +82,17 @@
             ],
             "source": "Outliers.R",
             "target": "ConvertingtoNumeric.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "trimSatSurvey",
+                    "output": "trimSatSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "RemovingSpaces.R",
+            "target": "1.R"
         }
     ],
     "nodes": [
@@ -147,6 +158,6 @@
             "name": "1.R"
         }
     ],
-    "updated_at": "2018-12-06 02:42:28",
+    "updated_at": "2018-12-06 02:44:57",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
