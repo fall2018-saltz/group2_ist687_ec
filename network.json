@@ -118,8 +118,12 @@
             "desc": "",
             "name": "ConvertingtoNumeric.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "LinearModelling.R"
         }
     ],
-    "updated_at": "2018-12-06 01:35:02",
+    "updated_at": "2018-12-06 01:38:29",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
