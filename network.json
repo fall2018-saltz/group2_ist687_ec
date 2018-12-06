@@ -169,8 +169,12 @@
             "desc": "",
             "name": "Map1.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Apriori.R"
         }
     ],
-    "updated_at": "2018-12-06 05:22:35",
+    "updated_at": "2018-12-06 05:41:26",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
