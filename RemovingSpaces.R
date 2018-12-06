@@ -1,5 +1,5 @@
 
-library(data.table)
+#library(data.table)
 gsub(" ", "", colSatSurvey$Airline.Status, fixed = TRUE)
 gsub(" ", "", colSatSurvey$Gender, fixed = TRUE)
 trimws(colSatSurvey$Type.of.Travel)
@@ -9,4 +9,4 @@ trimws(colSatSurvey$Airline.Name)
 trimws(colSatSurvey$Origin.City)
 trimws(colSatSurvey$Origin.State)
 trimws(colSatSurvey$Destination.City)
-trimSatSurvey <- trimws(colSatSurvey$Destination.State)
+trimws(colSatSurvey$Destination.State)
