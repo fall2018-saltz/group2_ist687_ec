@@ -7,3 +7,6 @@ m<-lm(formula=Satisfaction~Age+Gender+Airline.Status+Price.Sensitivity+Year.of.F
         Flight.Distance,data=satisfactionSurvey)
         
         
+        
+        
+summary(m)
