@@ -318,6 +318,17 @@
             ],
             "source": "ChangeColumnNames.R",
             "target": "DelRedDataFromFlightCancelled.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurveyAge",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "AgeGroups.R"
         }
     ],
     "nodes": [
@@ -455,6 +466,6 @@
             "name": "AgeGroups.R"
         }
     ],
-    "updated_at": "2018-12-07 20:41:21",
+    "updated_at": "2018-12-07 20:42:07",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
