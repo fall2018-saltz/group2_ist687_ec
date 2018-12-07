@@ -300,17 +300,6 @@
         {
             "ports": [
                 {
-                    "input": "colSatSurvey",
-                    "output": "colSatSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "ChangeColumnNames.R",
-            "target": "DelRedDataFromFlightCancelled.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "colSatSurvey55",
                     "output": "colSatSurvey5",
                     "type": "r_obj"
@@ -322,24 +311,13 @@
         {
             "ports": [
                 {
-                    "input": "trainDataSVM",
-                    "output": "trainData",
+                    "input": "colSatSurvey",
+                    "output": "colSatSurvey980",
                     "type": "r_obj"
                 }
             ],
-            "source": "TrainData.R",
-            "target": "SupportVectorMachine.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "testDataSVM",
-                    "output": "testData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "TestData.R",
-            "target": "SupportVectorMachine.R"
+            "source": "ChangeColumnNames.R",
+            "target": "DelRedDataFromFlightCancelled.R"
         }
     ],
     "nodes": [
@@ -471,14 +449,8 @@
             "desc": "",
             "name": "DelRedDataFromFlightCancelled.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "SupportVectorMachine.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 19:23:23",
+    "updated_at": "2018-12-07 19:55:35",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
