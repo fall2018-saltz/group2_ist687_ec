@@ -329,6 +329,16 @@
             ],
             "source": "ConvertingtoNumeric.R",
             "target": "AgeGroups.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AgeSatiCol",
+                    "type": "png"
+                }
+            ],
+            "source": "AgeGroups.R",
+            "target": "AgeSatiCol.png"
         }
     ],
     "nodes": [
@@ -474,6 +484,6 @@
             "name": "AgeDist.png"
         }
     ],
-    "updated_at": "2018-12-07 20:47:06",
+    "updated_at": "2018-12-07 20:47:48",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
