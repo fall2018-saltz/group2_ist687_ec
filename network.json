@@ -126,6 +126,17 @@
             ],
             "source": "DividingIntoCategories.R",
             "target": "TrainingAndTestData.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "SatisfactionSurveyF3",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "DividingIntoCategories.R",
+            "target": "TestData.R"
         }
     ],
     "nodes": [
@@ -213,6 +224,6 @@
             "name": "TestData.R"
         }
     ],
-    "updated_at": "2018-12-07 17:25:45",
+    "updated_at": "2018-12-07 17:26:06",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
