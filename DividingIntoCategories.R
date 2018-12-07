@@ -72,4 +72,4 @@ satisfactionSurveyF$Flight.Distance<-as.factor(satisfactionSurveyF$Flight.Distan
 satisfactionSurveyF$Arr.Delay.greater.5.Mins<-as.factor(satisfactionSurveyF$Arr.Delay.greater.5.Mins)
 satisfactionSurveyF$No.of.other.Loyalty.Cards<-as.factor(satisfactionSurveyF$No.of.other.Loyalty.Cards)
 
-satisfactionSurveyF<-satisfactionSurveyF[,-c(-16,-17)]
+satisfactionSurveyF<-satisfactionSurveyF[,-c(16,17)]
