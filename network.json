@@ -240,8 +240,12 @@
             "desc": "",
             "name": "TrainData.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "RandIndex.R"
         }
     ],
-    "updated_at": "2018-12-07 17:32:52",
+    "updated_at": "2018-12-07 17:33:06",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
