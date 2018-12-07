@@ -469,8 +469,11 @@
         },
         {
             "name": "AgeSatiCol.png"
+        },
+        {
+            "name": "AgeDist.png"
         }
     ],
-    "updated_at": "2018-12-07 20:46:52",
+    "updated_at": "2018-12-07 20:47:06",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
