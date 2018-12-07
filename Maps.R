@@ -2,6 +2,7 @@
 library("ggplot2")
 library("mapproj")
 library("dplyr")
+library("ggplot2")
 US <- map_data("state")
 
 SatByAirlines <- data.frame(plotMaps %>%
