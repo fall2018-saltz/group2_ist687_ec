@@ -170,6 +170,17 @@
             ],
             "source": "RandIndex.R",
             "target": "TrainData.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cutPoint",
+                    "output": "cutPoint2_3",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cutPoint.R",
+            "target": "TrainData.R"
         }
     ],
     "nodes": [
@@ -265,6 +276,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 17:45:31",
+    "updated_at": "2018-12-07 17:45:51",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
