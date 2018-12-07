@@ -199,12 +199,16 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "drsharma",
             "desc": "",
             "name": "TrainingAndTestData.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "RandomForest.R"
         }
     ],
-    "updated_at": "2018-12-07 17:21:10",
+    "updated_at": "2018-12-07 17:24:26",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
