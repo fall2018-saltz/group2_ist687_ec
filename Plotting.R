@@ -1,4 +1,7 @@
 
+satisfactionSurveyP$originstate<-tolower(satisfactionSurveyP$Origin.State)
+satisfactionSurveyP$origincity<-tolower(satisfactionSurveyP$Origin.City)
+
 library("ggplot2")
 library("mapproj")
 #library("mapdata")
