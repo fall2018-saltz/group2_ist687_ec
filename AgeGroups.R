@@ -1,4 +1,5 @@
 
+library("ggplot2")
 # Create df according to different age group and calculate the average satisfaction
 # Under 18 years
 Under18Satisfaction <- as.data.frame(filter(satisfactionSurveyAge, Age<18))
