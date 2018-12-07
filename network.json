@@ -115,6 +115,17 @@
             ],
             "source": "DividingIntoCategories.R",
             "target": "AssociativeRuleMining.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurveyF2",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "DividingIntoCategories.R",
+            "target": "RandomForest.R"
         }
     ],
     "nodes": [
@@ -192,6 +203,6 @@
             "name": "RandomForest.R"
         }
     ],
-    "updated_at": "2018-12-07 17:18:52",
+    "updated_at": "2018-12-07 17:19:18",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
