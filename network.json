@@ -236,6 +236,16 @@
             ],
             "source": "ConvertingtoNumeric.R",
             "target": "compDeptDelays.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "origstatebar",
+                    "type": "png"
+                }
+            ],
+            "source": "compDeptDelays.R",
+            "target": "ComparingDepartureDelays.png"
         }
     ],
     "nodes": [
@@ -342,6 +352,6 @@
             "name": "ComparingDepartureDelays.png"
         }
     ],
-    "updated_at": "2018-12-07 18:24:55",
+    "updated_at": "2018-12-07 18:25:07",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
