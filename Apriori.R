@@ -7,7 +7,7 @@ ruleset<-apriori(satisfactionSurveyF1,parameter = list(support=0.28,confidence=0
 
 ruleset2<-apriori(satisfactionSurveyF1,parameter = list(support=0.22,confidence=0.60),appearance = list(default="lhs",rhs="Satisfaction=Low"))
 
-inspect(ruleset)
-inspect(ruleset2)
+#inspect(ruleset)
+#inspect(ruleset2)
 
 
