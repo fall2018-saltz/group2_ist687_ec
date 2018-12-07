@@ -97,17 +97,6 @@
         {
             "ports": [
                 {
-                    "input": "satisfactionSurveyM1",
-                    "output": "satisfactionSurveyF",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "ConvertingtoNumeric.R",
-            "target": "Map1.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurveyF1",
                     "output": "satisfactionSurveyF",
                     "type": "r_obj"
@@ -303,12 +292,6 @@
         {
             "assigned_to": "drsharma",
             "desc": "",
-            "name": "Map1.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
             "name": "AssociativeRuleMining.R",
             "task_status": "in progress"
         },
@@ -352,6 +335,6 @@
             "name": "ComparingDepartureDelays.png"
         }
     ],
-    "updated_at": "2018-12-07 18:25:07",
+    "updated_at": "2018-12-07 18:28:42",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
