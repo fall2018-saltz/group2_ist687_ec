@@ -402,10 +402,15 @@
             "name": "Plot3.png"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "Maps.R"
+            "name": "Maps.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "SatByOriStatesMap.png"
         }
     ],
-    "updated_at": "2018-12-07 18:54:46",
+    "updated_at": "2018-12-07 19:03:47",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
