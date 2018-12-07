@@ -125,7 +125,7 @@
                 }
             ],
             "source": "DividingIntoCategories.R",
-            "target": "RandomForest.R"
+            "target": "TrainingAndTestData.R"
         }
     ],
     "nodes": [
@@ -199,10 +199,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "not assigned",
             "desc": "",
-            "name": "RandomForest.R"
+            "name": "TrainingAndTestData.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-07 17:19:18",
+    "updated_at": "2018-12-07 17:21:10",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
