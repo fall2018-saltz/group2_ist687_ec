@@ -1,4 +1,5 @@
 
+library("dplyr")
 library("ggplot2")
 #Group dataset by state
 state.group<-group_by(satisfactionSurveyy,Origin.State)
