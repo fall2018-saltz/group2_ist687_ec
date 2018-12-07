@@ -246,6 +246,16 @@
             ],
             "source": "ConvertingtoNumeric.R",
             "target": "Plotting.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Plot1.png"
         }
     ],
     "nodes": [
@@ -355,6 +365,6 @@
             "name": "Plot1.png"
         }
     ],
-    "updated_at": "2018-12-07 18:45:03",
+    "updated_at": "2018-12-07 18:45:12",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
