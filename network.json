@@ -159,6 +159,17 @@
             ],
             "source": "DividingIntoCategories.R",
             "target": "cutPoint.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "randIndex1",
+                    "output": "randIndex",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "RandIndex.R",
+            "target": "TrainData.R"
         }
     ],
     "nodes": [
@@ -248,10 +259,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "cutPoint.R"
+            "name": "cutPoint.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 17:36:09",
+    "updated_at": "2018-12-07 17:45:31",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
