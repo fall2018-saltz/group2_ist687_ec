@@ -240,12 +240,42 @@
             "ports": [
                 {
                     "input": "satisfactionSurveyP",
-                    "output": "satisfactionSurvey",
+                    "output": "satisfactionSurveyF",
                     "type": "r_obj"
                 }
             ],
             "source": "ConvertingtoNumeric.R",
             "target": "Plotting.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Plot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map2",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "name.box",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Plot3.png"
         }
     ],
     "nodes": [
@@ -346,10 +376,21 @@
             "name": "ComparingDepartureDelays.png"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "Plotting.R"
+            "name": "Plotting.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot1.png"
+        },
+        {
+            "name": "Plot2.png"
+        },
+        {
+            "name": "Plot3.png"
         }
     ],
-    "updated_at": "2018-12-07 18:30:21",
+    "updated_at": "2018-12-07 18:45:53",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
