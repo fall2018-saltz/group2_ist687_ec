@@ -1,9 +1,10 @@
 
+library("ggplot")
 #Group dataset by state
-state.group<-group_by(satisfactionSurvey,Origin.State)
+state.group<-group_by(satisfactionSurveyy,Origin.State)
 stateavg<-summarize(state.group,count=n(),avg.depdelay=mean(Departure.Delay.in.Minutes, na.rm = TRUE),
                     avg.arrdelay=mean(Arrival.Delay.in.Minutes,na.rm=TRUE))
-stateavg
+#stateavg
 
 #Make bar graph comparing departure delays
 origstatebar<-ggplot(stateavg,aes(x=stateavg$Origin.State,y=stateavg$avg.depdelay),na.rm=TRUE)
