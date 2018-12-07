@@ -10,17 +10,6 @@
         {
             "ports": [
                 {
-                    "input": "colSatSurvey",
-                    "output": "colSatSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "ChangeColumnNames.R",
-            "target": "RemovingSpaces.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey1",
                     "type": "csv"
                 }
@@ -460,8 +449,12 @@
             "desc": "",
             "name": "DelRedDataFromFlightCancelled.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "SupportVectorMachine.R"
         }
     ],
-    "updated_at": "2018-12-07 19:09:17",
+    "updated_at": "2018-12-07 19:21:08",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
