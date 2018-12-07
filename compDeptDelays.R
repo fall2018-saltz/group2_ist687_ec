@@ -1,5 +1,5 @@
 
-library("ggplot")
+library("ggplot2")
 #Group dataset by state
 state.group<-group_by(satisfactionSurveyy,Origin.State)
 stateavg<-summarize(state.group,count=n(),avg.depdelay=mean(Departure.Delay.in.Minutes, na.rm = TRUE),
