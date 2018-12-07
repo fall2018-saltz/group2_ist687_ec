@@ -225,6 +225,27 @@
             ],
             "source": "DividingIntoCategories.R",
             "target": "TestData.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurveyy",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "compDeptDelays.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "origstatebar",
+                    "type": "png"
+                }
+            ],
+            "source": "compDeptDelays.R",
+            "target": "ComparingDepartureDelays.png"
         }
     ],
     "nodes": [
@@ -292,8 +313,10 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "RandomForest.R"
+            "name": "RandomForest.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "drsharma",
@@ -318,8 +341,17 @@
             "desc": "",
             "name": "cutPoint.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "compDeptDelays.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "ComparingDepartureDelays.png"
         }
     ],
-    "updated_at": "2018-12-07 17:48:35",
+    "updated_at": "2018-12-07 18:25:07",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
