@@ -11,6 +11,7 @@ map1<-ggplot(satisfactionSurveyP, aes(map_id=originstate))
 map1<-map1+geom_map(map=us, aes(fill=Satisfaction))
 map1<-map1+expand_limits(x=us$long, y=us$lat)
 map1<-map1+coord_map()+ggtitle("USA states Satisfaction")
+map1
 
 
 satisfactionSurveyP$Destination.State <- tolower(satisfactionSurveyP$Destination.State)
