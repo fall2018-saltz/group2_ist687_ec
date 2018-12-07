@@ -69,4 +69,3 @@ AgeSatiCol <- ggplot(SatiByAge, aes(x=AgeGroup,y=AverageSatisfaction))+
   geom_col(width = 0.3)+
   labs(title="Average satisfaction of different age groups",x="Age Group", y="Average Satisfaction")
 AgeSatiCol
-
