@@ -329,6 +329,17 @@
             ],
             "source": "TrainData.R",
             "target": "SupportVectorMachine.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "testDataSVM",
+                    "output": "testData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "TestData.R",
+            "target": "SupportVectorMachine.R"
         }
     ],
     "nodes": [
@@ -468,6 +479,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 19:23:08",
+    "updated_at": "2018-12-07 19:23:23",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
