@@ -2,8 +2,10 @@
 library("ggplot2")
 library("mapproj")
 library("mapdata")
-us<-map_data("state")
+us<-mapdata("state")
 us
+
+#library("mapdata")
 
 map1<-ggplot(satisfactionSurveyP, aes(map_id=originstate))
 map1<-map1+geom_map(map=us, aes(fill=Satisfaction))
