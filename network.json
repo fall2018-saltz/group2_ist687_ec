@@ -292,8 +292,10 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "RandomForest.R"
+            "name": "RandomForest.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "drsharma",
@@ -318,8 +320,12 @@
             "desc": "",
             "name": "cutPoint.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "compDeptDelays.R"
         }
     ],
-    "updated_at": "2018-12-07 17:48:35",
+    "updated_at": "2018-12-07 18:17:14",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
