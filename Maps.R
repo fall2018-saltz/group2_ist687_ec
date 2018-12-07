@@ -1,7 +1,7 @@
 
 library("ggplot2")
 library("mapproj")
-
+library("dplyr")
 US <- map_data("state")
 
 SatByAirlines <- data.frame(plotMaps %>%
@@ -20,6 +20,7 @@ SatByOriStatesMap <- ggplot(SatByOriStates, aes(map_id = Origin.State))+
   expand_limits(x=US$long, y=US$lat)+
   coord_map() + ggtitle("Average Satisfaction for Origin States") + labs (x="Longitude", y="Latitude")
 
+SatByOriStatesMap
 #3
 SatByDesStates <- data.frame(plotMaps %>%
                                group_by(Destination.State) %>%
@@ -32,3 +33,4 @@ SatByDesStatesMap <- ggplot(SatByDesStates, aes(map_id = Destination.State))+
   expand_limits(x=US$long, y=US$lat)+
   coord_map() + ggtitle("Average Satisfaction for Destination States") + labs (x="Longitude", y="Latitude")+
 scale_fill_gradient(high = "darkred",low = "white")
+SatByDesStatesMap
