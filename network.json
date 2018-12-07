@@ -318,6 +318,37 @@
             ],
             "source": "ChangeColumnNames.R",
             "target": "DelRedDataFromFlightCancelled.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurveyAge",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "AgeGroups.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AgeSatiCol",
+                    "type": "png"
+                }
+            ],
+            "source": "AgeGroups.R",
+            "target": "AgeSatiCol.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AgeDist",
+                    "type": "png"
+                }
+            ],
+            "source": "AgeGroups.R",
+            "target": "AgeDist.png"
         }
     ],
     "nodes": [
@@ -449,8 +480,20 @@
             "desc": "",
             "name": "DelRedDataFromFlightCancelled.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "AgeGroups.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "AgeSatiCol.png"
+        },
+        {
+            "name": "AgeDist.png"
         }
     ],
-    "updated_at": "2018-12-07 19:55:35",
+    "updated_at": "2018-12-07 20:48:02",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
