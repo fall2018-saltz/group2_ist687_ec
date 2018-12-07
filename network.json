@@ -119,28 +119,6 @@
         {
             "ports": [
                 {
-                    "input": "satisfactionSurveyF2",
-                    "output": "satisfactionSurveyF",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "DividingIntoCategories.R",
-            "target": "TrainData.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "SatisfactionSurveyF3",
-                    "output": "satisfactionSurveyF",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "DividingIntoCategories.R",
-            "target": "TestData.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "trainData1",
                     "output": "trainData",
                     "type": "r_obj"
@@ -159,6 +137,17 @@
             ],
             "source": "TestData.R",
             "target": "RandomForest.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurveyF2",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "DividingIntoCategories.R",
+            "target": "RandIndex.R"
         }
     ],
     "nodes": [
@@ -246,6 +235,6 @@
             "name": "RandIndex.R"
         }
     ],
-    "updated_at": "2018-12-07 17:33:06",
+    "updated_at": "2018-12-07 17:34:44",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
