@@ -307,6 +307,28 @@
             ],
             "source": "Maps.R",
             "target": "SatByDesStatesMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "colSatSurvey",
+                    "output": "colSatSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ChangeColumnNames.R",
+            "target": "DelRedDataFromFlightCancelled.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "colSatSurvey55",
+                    "output": "colSatSurvey5",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "DelRedDataFromFlightCancelled.R",
+            "target": "RemovingSpaces.R"
         }
     ],
     "nodes": [
@@ -432,8 +454,14 @@
         },
         {
             "name": "SatByDesStatesMap.png"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "DelRedDataFromFlightCancelled.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 19:04:26",
+    "updated_at": "2018-12-07 19:09:17",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
