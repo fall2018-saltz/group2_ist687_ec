@@ -97,17 +97,6 @@
         {
             "ports": [
                 {
-                    "input": "satisfactionSurveyM1",
-                    "output": "satisfactionSurveyF",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "ConvertingtoNumeric.R",
-            "target": "Map1.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurveyF1",
                     "output": "satisfactionSurveyF",
                     "type": "r_obj"
@@ -246,6 +235,17 @@
             ],
             "source": "compDeptDelays.R",
             "target": "ComparingDepartureDelays.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurveyP",
+                    "output": "satisfactionSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "Plotting.R"
         }
     ],
     "nodes": [
@@ -303,12 +303,6 @@
         {
             "assigned_to": "drsharma",
             "desc": "",
-            "name": "Map1.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
             "name": "AssociativeRuleMining.R",
             "task_status": "in progress"
         },
@@ -350,8 +344,12 @@
         },
         {
             "name": "ComparingDepartureDelays.png"
+        },
+        {
+            "desc": "",
+            "name": "Plotting.R"
         }
     ],
-    "updated_at": "2018-12-07 18:25:07",
+    "updated_at": "2018-12-07 18:30:21",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
