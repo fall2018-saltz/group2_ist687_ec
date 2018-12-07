@@ -363,8 +363,11 @@
         },
         {
             "name": "Plot1.png"
+        },
+        {
+            "name": "Plot2.png"
         }
     ],
-    "updated_at": "2018-12-07 18:45:12",
+    "updated_at": "2018-12-07 18:45:20",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
