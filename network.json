@@ -462,10 +462,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "AgeGroups.R"
+            "name": "AgeGroups.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "AgeSatiCol.png"
         }
     ],
-    "updated_at": "2018-12-07 20:42:07",
+    "updated_at": "2018-12-07 20:46:52",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
