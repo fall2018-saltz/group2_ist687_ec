@@ -225,6 +225,17 @@
             ],
             "source": "DividingIntoCategories.R",
             "target": "TestData.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurveyy",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "compDeptDelays.R"
         }
     ],
     "nodes": [
@@ -326,6 +337,6 @@
             "name": "compDeptDelays.R"
         }
     ],
-    "updated_at": "2018-12-07 18:17:14",
+    "updated_at": "2018-12-07 18:18:26",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
