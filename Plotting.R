@@ -2,7 +2,7 @@
 library("ggplot2")
 library("mapproj")
 library("mapdata")
-us<-mapdata("state")
+us<-map_data("state")
 us
 
 #library("mapdata")
