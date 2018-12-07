@@ -297,6 +297,16 @@
             ],
             "source": "Maps.R",
             "target": "SatByOriStatesMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatByDesStatesMap",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "SatByDesStatesMap.png"
         }
     ],
     "nodes": [
@@ -424,6 +434,6 @@
             "name": "SatByDesStatesMap.png"
         }
     ],
-    "updated_at": "2018-12-07 19:04:15",
+    "updated_at": "2018-12-07 19:04:26",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
