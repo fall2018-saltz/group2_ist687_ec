@@ -114,7 +114,7 @@
                 }
             ],
             "source": "DividingIntoCategories.R",
-            "target": "Apriori.R"
+            "target": "AssociativeRuleMining.R"
         }
     ],
     "nodes": [
@@ -184,10 +184,10 @@
         {
             "assigned_to": "drsharma",
             "desc": "",
-            "name": "Apriori.R",
+            "name": "AssociativeRuleMining.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 05:54:43",
+    "updated_at": "2018-12-07 17:17:53",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
