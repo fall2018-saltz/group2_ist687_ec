@@ -19,9 +19,10 @@ map2<-ggplot(satisfactionSurveyP, aes(map_id=Destination.State))
 map2<-map2+geom_map(map=us, aes(fill=Satisfaction))
 map2<-map2+expand_limits(x=us$long, y=us$lat)
 map2<-map2+coord_map()+ggtitle("USA states Satisfaction")
+map2
 
 
 name.box<-ggplot(satisfactionSurveyP,aes(x=satisfactionSurveyP$Airline.Name,y=satisfactionSurveyP$Satisfaction))
 name.box<-name.box+geom_boxplot()
 name.box<-name.box+theme(axis.text.x=element_text(angle=90,hjust=1))
-
+name.box
