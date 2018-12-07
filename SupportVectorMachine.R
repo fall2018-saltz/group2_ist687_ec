@@ -2,7 +2,7 @@
 # using ksvm to build a model
 library("e1071")
 library("kernlab")
-library(gridExtra)
+library("gridExtra")
 
 svmOutput  <- ksvm(Satisfaction~ Age+Gender+Type.of.Travel+Flight.cancelled+Airline.Status+Class+Arrival.Delay.in.Minutes, data=trainDataSVM, kernel= "rbfdot", kpar = "automatic", C = 5, cross = 3, prob.model = TRUE)
 
