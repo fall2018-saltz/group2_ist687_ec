@@ -276,6 +276,37 @@
             ],
             "source": "Plotting.R",
             "target": "Plot3.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "plotMaps",
+                    "output": "satisfactionSurveyF",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "ConvertingtoNumeric.R",
+            "target": "Maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatByOriStatesMap",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "SatByOriStatesMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatByDesStatesMap",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "SatByDesStatesMap.png"
         }
     ],
     "nodes": [
@@ -389,8 +420,20 @@
         },
         {
             "name": "Plot3.png"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "Maps.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "SatByOriStatesMap.png"
+        },
+        {
+            "name": "SatByDesStatesMap.png"
         }
     ],
-    "updated_at": "2018-12-07 18:45:53",
+    "updated_at": "2018-12-07 19:04:26",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
