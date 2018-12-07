@@ -311,6 +311,7 @@
         {
             "ports": [
                 {
+                    "input": "colSatSurvey",
                     "output": "colSatSurvey",
                     "type": "r_obj"
                 }
@@ -448,6 +449,6 @@
             "name": "DelRedDataFromFlightCancelled.R"
         }
     ],
-    "updated_at": "2018-12-07 19:06:42",
+    "updated_at": "2018-12-07 19:07:04",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
