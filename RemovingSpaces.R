@@ -1,14 +1,14 @@
 
 #library(data.table)
-colSatSurvey$Airline.Status <- gsub(" ", "", colSatSurvey$Airline.Status, fixed = TRUE)
-colSatSurvey$Gender <- gsub(" ", "", colSatSurvey$Gender, fixed = TRUE)
-colSatSurvey$Type.of.Travel <- trimws(colSatSurvey$Type.of.Travel)
-colSatSurvey$Class <- trimws(colSatSurvey$Class)
-colSatSurvey$Airline.Code <- trimws(colSatSurvey$Airline.Code)
-colSatSurvey$Airline.Name <- trimws(colSatSurvey$Airline.Name)
-colSatSurvey$Origin.City <- trimws(colSatSurvey$Origin.City)
-colSatSurvey$Origin.State <- trimws(colSatSurvey$Origin.State)
-colSatSurvey$Destination.City <- trimws(colSatSurvey$Destination.City)
-colSatSurvey$Destination.State <- trimws(colSatSurvey$Destination.State)
+colSatSurvey55$Airline.Status <- gsub(" ", "", colSatSurvey55$Airline.Status, fixed = TRUE)
+colSatSurvey55$Gender <- gsub(" ", "", colSatSurvey55$Gender, fixed = TRUE)
+colSatSurvey55$Type.of.Travel <- trimws(colSatSurvey55$Type.of.Travel)
+colSatSurvey55$Class <- trimws(colSatSurvey55$Class)
+colSatSurvey55$Airline.Code <- trimws(colSatSurvey55$Airline.Code)
+colSatSurvey55$Airline.Name <- trimws(colSatSurvey55$Airline.Name)
+colSatSurvey55$Origin.City <- trimws(colSatSurvey55$Origin.City)
+colSatSurvey55$Origin.State <- trimws(colSatSurvey55$Origin.State)
+colSatSurvey55$Destination.City <- trimws(colSatSurvey55$Destination.City)
+colSatSurvey55$Destination.State <- trimws(colSatSurvey55$Destination.State)
 
-trimSatSurvey <- colSatSurvey
+trimSatSurvey <- colSatSurvey55
