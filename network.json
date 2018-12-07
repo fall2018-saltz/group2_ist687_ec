@@ -125,7 +125,7 @@
                 }
             ],
             "source": "DividingIntoCategories.R",
-            "target": "TrainingAndTestData.R"
+            "target": "TrainData.R"
         },
         {
             "ports": [
@@ -210,20 +210,22 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "TrainingAndTestData.R",
-            "task_status": "in progress"
-        },
-        {
             "desc": "",
             "name": "RandomForest.R"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "TestData.R"
+            "name": "TestData.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "TrainData.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 17:26:06",
+    "updated_at": "2018-12-07 17:26:57",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
