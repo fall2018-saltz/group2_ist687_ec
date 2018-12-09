@@ -380,12 +380,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "cutPoint.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "ComparingDepartureDelays.png"
         },
         {
@@ -492,8 +486,14 @@
             "desc": "converting in test and train df",
             "name": "RandIndex.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "converting in test and train df",
+            "name": "cutPoint.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 20:57:13",
+    "updated_at": "2018-12-09 20:57:32",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
