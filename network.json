@@ -364,12 +364,6 @@
         {
             "assigned_to": "drsharma",
             "desc": "",
-            "name": "CleaningSatisfactionColumn.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
             "name": "Outliers.R",
             "task_status": "in progress"
         },
@@ -492,8 +486,14 @@
             "desc": "changing date format",
             "name": "FormatDate.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "remove irrelevant data in satisfaction column",
+            "name": "CleaningSatisfactionColumn.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 20:53:37",
+    "updated_at": "2018-12-09 20:54:08",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
