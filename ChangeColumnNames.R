@@ -7,3 +7,4 @@ setnames(satisfactionSurvey1, old=c('No.of.Flights.p.a.', 'Percentage of Flight 
 setnames(satisfactionSurvey1, old=c('Orgin.City','No..of.other.Loyalty.Cards'), new = c('Origin.City','No.of.other.Loyalty.Cards'))
 setnames(satisfactionSurvey1, old=c('No.of.Flights.per.customer'), new = c('No.of.Flights.per.annum'))
 setnames(satisfactionSurvey1, old=c('Arrival.Delay.greater.5.Mins'), new = c('Arr.Delay.greater.5.Mins'))
+colSatSurvey980<-satisfactionSurvey1
