@@ -364,12 +364,6 @@
         {
             "assigned_to": "drsharma",
             "desc": "",
-            "name": "ConvertingtoNumeric.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
             "name": "LinearModelling.R",
             "task_status": "in progress"
         },
@@ -492,8 +486,14 @@
             "desc": "assign values in place of NA ",
             "name": "Outliers.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "sachinchaudhury",
+            "desc": "converting columns to numeric ",
+            "name": "ConvertingtoNumeric.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 20:54:34",
+    "updated_at": "2018-12-09 20:54:57",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
