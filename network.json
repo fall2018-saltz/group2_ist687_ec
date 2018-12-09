@@ -364,12 +364,6 @@
         {
             "assigned_to": "drsharma",
             "desc": "",
-            "name": "AssociativeRuleMining.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
             "name": "RandomForest.R",
             "task_status": "in progress"
         },
@@ -492,8 +486,14 @@
             "desc": "dividing attributes in categories\r\n",
             "name": "DividingIntoCategories.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "Association rule mining\r\n",
+            "name": "AssociativeRuleMining.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 20:56:29",
+    "updated_at": "2018-12-09 20:56:50",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
