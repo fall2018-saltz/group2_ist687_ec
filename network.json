@@ -488,12 +488,12 @@
             "name": "AgeDist.png"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "",
+            "assigned_to": "sachinchaudhury",
+            "desc": "delete rows where flight cancelled=No",
             "name": "DelRedDataFromFlightCancelled.R",
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 20:50:29",
+    "updated_at": "2018-12-09 20:52:28",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
