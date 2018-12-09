@@ -364,12 +364,6 @@
         {
             "assigned_to": "drsharma",
             "desc": "",
-            "name": "RemovingSpaces.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "drsharma",
-            "desc": "",
             "name": "FormatDate.R",
             "task_status": "in progress"
         },
@@ -492,8 +486,14 @@
             "desc": "delete rows where flight cancelled=No",
             "name": "DelRedDataFromFlightCancelled.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "siddharth0492",
+            "desc": "removing spaces\r\n",
+            "name": "RemovingSpaces.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 20:52:28",
+    "updated_at": "2018-12-09 20:53:04",
     "url": "https://github.com/fall2018-wallace/group2_ist687"
 }
