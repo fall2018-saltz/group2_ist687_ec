@@ -1,5 +1,6 @@
 
 #library(data.table)
+str(colSatSurvey55)
 colSatSurvey55$Airline.Status <- gsub(" ", "", colSatSurvey55$Airline.Status, fixed = TRUE)
 colSatSurvey55$Gender <- gsub(" ", "", colSatSurvey55$Gender, fixed = TRUE)
 colSatSurvey55$Type.of.Travel <- trimws(colSatSurvey55$Type.of.Travel)
