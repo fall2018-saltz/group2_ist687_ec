@@ -1,13 +1,8 @@
 {
     "collaborators": [
-        "sachinchaudhury",
-        "drsharma",
-        "mansee1",
-        "siddharth0492",
-        "achandir1",
-        "jsaltz007"
+        "achandir"
     ],
-    "created_at": "2018-10-11 16:56:46",
+    "created_at": "2018-12-20 16:35:47",
     "edges": [
         {
             "ports": [
@@ -29,17 +24,6 @@
             ],
             "source": "RemovingSpaces.R",
             "target": "FormatDate.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "dateSatSurvey2",
-                    "output": "dateSatSurvey",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "FormatDate.R",
-            "target": "CleaningSatisfactionColumn.R"
         },
         {
             "ports": [
@@ -351,6 +335,17 @@
             ],
             "source": "AgeGroups.R",
             "target": "AgeDist.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dateSatSurvey2",
+                    "output": "dateSatSurvey",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "FormatDate.R",
+            "target": "CleaningSatisfactionColumn.R"
         }
     ],
     "nodes": [
@@ -358,10 +353,8 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "siddharth0492",
             "desc": "1)Using summary and structure function to analyze the data\r\n2) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
-            "name": "ChangeColumnNames.R",
-            "task_status": "completed"
+            "name": "ChangeColumnNames.R"
         },
         {
             "name": "ComparingDepartureDelays.png"
@@ -388,114 +381,84 @@
             "name": "AgeDist.png"
         },
         {
-            "assigned_to": "sachinchaudhury",
+            "assigned_to": "achandir",
             "desc": "delete rows where flight cancelled=No",
             "name": "DelRedDataFromFlightCancelled.R",
-            "task_status": "completed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "siddharth0492",
+            "assigned_to": "achandir",
             "desc": "removing spaces\r\n",
             "name": "RemovingSpaces.R",
-            "task_status": "completed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "mansee1",
+            "assigned_to": "achandir",
             "desc": "changing date format",
             "name": "FormatDate.R",
-            "task_status": "completed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "remove irrelevant data in satisfaction column",
-            "name": "CleaningSatisfactionColumn.R",
-            "task_status": "completed"
+            "name": "CleaningSatisfactionColumn.R"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "assign values in place of NA ",
-            "name": "Outliers.R",
-            "task_status": "completed"
+            "name": "Outliers.R"
         },
         {
-            "assigned_to": "sachinchaudhury",
             "desc": "converting columns to numeric ",
-            "name": "ConvertingtoNumeric.R",
-            "task_status": "completed"
+            "name": "ConvertingtoNumeric.R"
         },
         {
-            "assigned_to": "sachinchaudhury",
             "desc": "linear modelling",
-            "name": "LinearModelling.R",
-            "task_status": "completed"
+            "name": "LinearModelling.R"
         },
         {
-            "assigned_to": "drsharma",
             "desc": "",
-            "name": "compDeptDelays.R",
-            "task_status": "completed"
+            "name": "compDeptDelays.R"
         },
         {
-            "assigned_to": "drsharma",
             "desc": "",
-            "name": "Plotting.R",
-            "task_status": "completed"
+            "name": "Plotting.R"
         },
         {
-            "assigned_to": "drsharma",
             "desc": "",
-            "name": "Maps.R",
-            "task_status": "completed"
+            "name": "Maps.R"
         },
         {
-            "assigned_to": "drsharma",
             "desc": "",
-            "name": "AgeGroups.R",
-            "task_status": "completed"
+            "name": "AgeGroups.R"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "dividing attributes in categories\r\n",
-            "name": "DividingIntoCategories.R",
-            "task_status": "completed"
+            "name": "DividingIntoCategories.R"
         },
         {
-            "assigned_to": "siddharth0492",
             "desc": "Association rule mining\r\n",
-            "name": "AssociativeRuleMining.R",
-            "task_status": "completed"
+            "name": "AssociativeRuleMining.R"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "converting in test and train df",
-            "name": "RandIndex.R",
-            "task_status": "completed"
+            "name": "RandIndex.R"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "converting in test and train df",
-            "name": "cutPoint.R",
-            "task_status": "completed"
+            "name": "cutPoint.R"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "train data",
-            "name": "TrainData.R",
-            "task_status": "completed"
+            "name": "TrainData.R"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "test data frame",
-            "name": "TestData.R",
-            "task_status": "completed"
+            "name": "TestData.R"
         },
         {
-            "assigned_to": "mansee1",
             "desc": "applying random forest",
-            "name": "RandomForest.R",
-            "task_status": "completed"
+            "name": "RandomForest.R"
         }
     ],
-    "updated_at": "2018-12-19 22:05:06",
-    "url": "https://github.com/fall2018-wallace/group2_ist687"
+    "updated_at": "2018-12-21 02:04:25",
+    "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
