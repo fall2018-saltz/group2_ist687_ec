@@ -14,6 +14,10 @@ satisfactionSurvey2$Arrival.Delay.in.Minutes <- as.numeric(as.character(satisfac
 satisfactionSurvey2$Flight.time.in.minutes <- as.numeric(as.character(satisfactionSurvey2$Flight.time.in.minutes))
 satisfactionSurvey2$Flight.Distance <- as.numeric(as.character(satisfactionSurvey2$Flight.Distance))
 
+cutPoint3_4 <- floor(3 * dim(satisfactionSurvey2)[1]/4)
+randIndex <- sample(1:dim(satisfactionSurvey2)[1])
+
+satisfactionSurvey2 <- satisfactionSurvey2[randIndex[1:cutPoint3_4],]
 satisfactionSurveyF <- satisfactionSurvey2
 
 
