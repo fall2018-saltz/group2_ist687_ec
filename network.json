@@ -407,10 +407,6 @@
             "task_status": "in progress"
         },
         {
-            "desc": "test data frame",
-            "name": "TestData.R"
-        },
-        {
             "desc": "applying random forest",
             "name": "RandomForest.R"
         },
@@ -485,8 +481,14 @@
             "desc": "train data",
             "name": "TrainData.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "test data frame",
+            "name": "TestData.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:10:03",
+    "updated_at": "2019-01-14 14:10:13",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
