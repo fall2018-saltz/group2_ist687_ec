@@ -389,10 +389,6 @@
             "task_status": "in progress"
         },
         {
-            "desc": "remove irrelevant data in satisfaction column",
-            "name": "CleaningSatisfactionColumn.R"
-        },
-        {
             "assigned_to": "achandir",
             "desc": "assign values in place of NA ",
             "name": "Outliers.R",
@@ -465,8 +461,14 @@
             "desc": "1)Using summary and structure function to analyze the data\r\n2) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
             "name": "ChangeColumnNames.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "remove irrelevant data in satisfaction column",
+            "name": "CleaningSatisfactionColumn.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:07:56",
+    "updated_at": "2019-01-14 14:08:09",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
