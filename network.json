@@ -462,9 +462,9 @@
             "assigned_to": "achandir",
             "desc": "delete rows where flight cancelled=No",
             "name": "DelRedDataFromFlightCancelled.R",
-            "task_status": "completed"
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2019-01-14 14:06:35",
+    "updated_at": "2019-01-14 14:06:47",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
