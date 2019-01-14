@@ -353,10 +353,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "desc": "1)Using summary and structure function to analyze the data\r\n2) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
-            "name": "ChangeColumnNames.R"
-        },
-        {
             "name": "ComparingDepartureDelays.png"
         },
         {
@@ -463,8 +459,12 @@
             "desc": "delete rows where flight cancelled=No",
             "name": "DelRedDataFromFlightCancelled.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "1)Using summary and structure function to analyze the data\r\n2) Changing column names.\r\n2) Removing Multi valued attributes for Origin City and Destination City\r\n",
+            "name": "ChangeColumnNames.R"
         }
     ],
-    "updated_at": "2019-01-14 14:07:10",
+    "updated_at": "2019-01-14 14:07:19",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
