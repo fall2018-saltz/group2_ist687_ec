@@ -382,12 +382,6 @@
         },
         {
             "assigned_to": "achandir",
-            "desc": "delete rows where flight cancelled=No",
-            "name": "DelRedDataFromFlightCancelled.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "achandir",
             "desc": "removing spaces\r\n",
             "name": "RemovingSpaces.R",
             "task_status": "in progress"
@@ -403,16 +397,22 @@
             "name": "CleaningSatisfactionColumn.R"
         },
         {
+            "assigned_to": "achandir",
             "desc": "assign values in place of NA ",
-            "name": "Outliers.R"
+            "name": "Outliers.R",
+            "task_status": "in progress"
         },
         {
+            "assigned_to": "achandir",
             "desc": "converting columns to numeric ",
-            "name": "ConvertingtoNumeric.R"
+            "name": "ConvertingtoNumeric.R",
+            "task_status": "in progress"
         },
         {
+            "assigned_to": "achandir",
             "desc": "linear modelling",
-            "name": "LinearModelling.R"
+            "name": "LinearModelling.R",
+            "task_status": "in progress"
         },
         {
             "desc": "",
@@ -457,8 +457,14 @@
         {
             "desc": "applying random forest",
             "name": "RandomForest.R"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "delete rows where flight cancelled=No",
+            "name": "DelRedDataFromFlightCancelled.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-21 02:04:25",
+    "updated_at": "2019-01-14 14:06:35",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
