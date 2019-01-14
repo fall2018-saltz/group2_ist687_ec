@@ -407,10 +407,6 @@
             "task_status": "in progress"
         },
         {
-            "desc": "dividing attributes in categories\r\n",
-            "name": "DividingIntoCategories.R"
-        },
-        {
             "desc": "Association rule mining\r\n",
             "name": "AssociativeRuleMining.R"
         },
@@ -475,8 +471,14 @@
             "desc": "",
             "name": "AgeGroups.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "dividing attributes in categories\r\n",
+            "name": "DividingIntoCategories.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:09:12",
+    "updated_at": "2019-01-14 14:09:21",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
