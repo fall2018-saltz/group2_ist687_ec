@@ -408,10 +408,6 @@
         },
         {
             "desc": "",
-            "name": "Maps.R"
-        },
-        {
-            "desc": "",
             "name": "AgeGroups.R"
         },
         {
@@ -471,8 +467,14 @@
             "desc": "",
             "name": "Plotting.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "Maps.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:08:55",
+    "updated_at": "2019-01-14 14:09:03",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
