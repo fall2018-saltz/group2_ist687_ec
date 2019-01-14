@@ -407,10 +407,6 @@
             "task_status": "in progress"
         },
         {
-            "desc": "converting in test and train df",
-            "name": "cutPoint.R"
-        },
-        {
             "desc": "train data",
             "name": "TrainData.R"
         },
@@ -481,8 +477,14 @@
             "desc": "converting in test and train df",
             "name": "RandIndex.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "converting in test and train df",
+            "name": "cutPoint.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:09:43",
+    "updated_at": "2019-01-14 14:09:52",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
