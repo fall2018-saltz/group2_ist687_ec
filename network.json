@@ -408,10 +408,6 @@
         },
         {
             "desc": "",
-            "name": "compDeptDelays.R"
-        },
-        {
-            "desc": "",
             "name": "Plotting.R"
         },
         {
@@ -467,8 +463,14 @@
             "desc": "remove irrelevant data in satisfaction column",
             "name": "CleaningSatisfactionColumn.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "compDeptDelays.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:08:09",
+    "updated_at": "2019-01-14 14:08:45",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
