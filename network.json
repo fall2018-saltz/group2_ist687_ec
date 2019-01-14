@@ -408,10 +408,6 @@
         },
         {
             "desc": "",
-            "name": "Plotting.R"
-        },
-        {
-            "desc": "",
             "name": "Maps.R"
         },
         {
@@ -469,8 +465,14 @@
             "desc": "",
             "name": "compDeptDelays.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "Plotting.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:08:45",
+    "updated_at": "2019-01-14 14:08:55",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
