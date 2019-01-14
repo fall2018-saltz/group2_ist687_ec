@@ -407,10 +407,6 @@
             "task_status": "in progress"
         },
         {
-            "desc": "applying random forest",
-            "name": "RandomForest.R"
-        },
-        {
             "assigned_to": "achandir",
             "desc": "delete rows where flight cancelled=No",
             "name": "DelRedDataFromFlightCancelled.R",
@@ -487,8 +483,14 @@
             "desc": "test data frame",
             "name": "TestData.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "applying random forest",
+            "name": "RandomForest.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2019-01-14 14:10:13",
+    "updated_at": "2019-01-14 14:10:22",
     "url": "https://github.com/fall2018-saltz/group2_ist687_ec"
 }
